@@ -244,7 +244,7 @@ void CRTSSSharedMemorySampleDlg::OnTimer(UINT nIDEvent)
 	{
 		// 使用对齐标签A0，单位bpm右对齐
 		CString str;
-		str.Format("<C=FFC0CB>Heart  <A0>%d <S1>bpm<S><A><C>", hr); // Heart左侧，数值和bpm右对齐
+		str.Format("<C=FFC0CB>Heart<A0>%d <A><A1><S1>bpm<S><A>", hr);
 		UpdateOSD(str);
 		m_strStatus = "The following text is being forwarded to OSD:\n\n" + str;
 		m_richEditCtrl.SetWindowText(m_strStatus);

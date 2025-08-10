@@ -165,7 +165,9 @@
     <ClInclude Include="BluetoothHeartRate.h" />
     <ClInclude Include="GroupedString.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="RTSSHooksTypes.h" />
     <ClInclude Include="RTSSProfileInterface.h" />
+    <ClInclude Include="RTSSSharedMemory.h" />
     <ClInclude Include="RTSSSharedMemorySample.h" />
     <ClInclude Include="RTSSSharedMemorySampleDlg.h" />
     <ClInclude Include="StdAfx.h" />

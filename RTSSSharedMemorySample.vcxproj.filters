@@ -61,6 +61,12 @@
     <ClInclude Include="BluetoothHeartRate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RTSSSharedMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTSSHooksTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\RTSSSharedMemorySample.ico">
